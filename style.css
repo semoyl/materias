@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol, li{
+    list-style: none;
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #E87B1F;
+    display: flex;
+    width: 100vh;
+    height: 15vh;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 45%;
+    background-color: blue;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a{
+    color: white;
+    padding: 8px;
+    transition: 1s;
+}
+header nav a:hover{
+    background-color: red;
+}
