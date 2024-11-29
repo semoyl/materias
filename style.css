@@ -35,7 +35,7 @@ header{
     background-color: #E87B1F;
     display: flex; 
     width: 100%;
-    height: 10vh;
+    height: 15vh;
     justify-content: space-between;
     position: fixed;
 }
@@ -49,19 +49,21 @@ header{
 
 .topics li{
     flex-direction: row;
-    margin-top: 41px;
+    margin-top: 50px;
+    font-size: 20px;
 }
 
 .matt{
     font-size: 48px;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-left: 100px;
     position: absolute;
 }
 
 .senai{
     height: 50px;
     width: 200px;
-    margin-top: 25px;
+    margin-top: 40px;
 }
 
 header nav ul{
@@ -81,3 +83,104 @@ header nav a:hover{
 .grupo{
     height: 100vh;
 }
+
+main{
+    background-color: #FEC34E ;
+    padding-top: 15vh;
+}
+
+#start{
+    align-items: center;
+}
+
+.sobretit{
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.sobretit h1{
+    font-size: 64px;
+}
+
+.txt1{
+    text-align: center;
+    width: 35vw;
+    align-items: center;
+    justify-content: center;
+    margin-left: 32%;
+}
+.txt1 h3{
+    font-size: 32px;
+}
+
+.img1{
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.img1 img{
+    top: 0;
+    margin-left: 10%;
+}
+
+#algebra{
+    display: flex;
+    background-color: #d86c1b;
+}
+
+.ladoE{
+    justify-content: center;
+    width: 50vw;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+.ladoE h1{
+    font-size: 64px;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.ladoE h3{
+    width: 50%;
+    align-items: center;
+    margin-left: 170px;
+    font-size: 24px;
+}
+
+.ladoD{
+    justify-content: center;
+    align-items: center;
+}
+
+.ladoD .exag{
+    font-size: 64px;
+    margin-left: 25%;
+    margin-top: 37%;
+}
+
+
+
+#geometria{
+    display: flex;
+}
+
+.ladoD .exge{
+    margin-top: 20%;
+    font-size: 64px;
+    margin-left: 30%;
+}
+
+
+#estatistica{
+    background-color: #d86c1b;
+}
+
+
+
+
+
