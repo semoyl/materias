@@ -285,7 +285,7 @@ main{
     }
 
     .ladoE h3{
-        font-size: 18px;
+        font-size: 16px;
         margin-left: 90px;
     }
 
@@ -299,15 +299,62 @@ main{
         margin-top: 250px;
     }
 
-    .ladoD img{
-        height: 400px;
+    .ladoD .imgalg{
+        margin-top: 50px;
+        height: 250px;
         width: 200px;
     }
 
-    .ladoD .imggeo{
-        height: 100px;
-        width: 100px;
+    .ladoD .exge{
+        font-size: 32px;
+        margin-top: 250px;
+        margin-left: 10px;
     }
+
+    .ladoD .imggeo{
+        height: 400px;
+        width: 420px;
+    }
+
+    .ladoE .stat{
+        margin-top: 270px;
+    }
+
+    .ladoD .exes{
+        font-size: 32px;
+        margin-left: 75px;
+        margin-top: 270px;
+    }
+
+    .ladoD h3{
+        font-size: 16px;
+        margin-top: 50px;
+        margin-left: 10px;
+        width: 30vw;
+        text-align: center;
+       }
+
+       .pqtt h1{
+        font-size: 48px;
+        margin-left: -40px;
+       }
+       .txtult h3{
+        font-size: 24px;
+        margin-left: -40px;
+
+       }
+
+       .lastimg img{
+        height: 300px;
+        width: 400px;
+        margin-left: -40px;
+       }
+
+       .lastdiv{
+        font-size: 32px;
+       }
+
+
 }
 
 
