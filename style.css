@@ -86,7 +86,7 @@ header nav a:hover{
 main{
     background-color: #FEC34E ;
     padding-top: 15vh;
-    width: 100vw;
+    width: 100%;
 }
 
 #start{
@@ -282,6 +282,7 @@ main{
     .ladoE h1{
         font-size: 32px;
         margin-top: 250px;
+        height: 100vhs;
     }
 
     .ladoE h3{
@@ -360,20 +361,20 @@ main{
 @media (max-width:640px){
 
     .topics{        
-        width: 75vw;
+        width: 65vw;
         justify-content: start;
         margin-left: 70px;
-
+        margin-top: -25px;
     }
 
     .matt{
         font-size: 20px;
-        margin-top: 50px;
-        margin-left: 20px;
+        margin-top: 25px;
+        margin-left: 5px;
     }
 
     .topics li{
-        font-size: 12px;
+        font-size: 8px;
         margin-top: 65px;
     }
 
@@ -396,17 +397,21 @@ main{
 
     .img1 img{
         height: 200px;
-        width: 400px;
+        width: 370px;
         margin-top: 2vh;
     }
 
+    .ladoE {
+        width: 50vw;
+    }
+
     .ladoE h1{
-        font-size: 24px;
-        margin-top: 150px;
+        font-size: 20px;
+        margin-top: 70px;
     }
 
     .ladoE h3{
-        font-size: 14px;
+        font-size: 12px;
         margin-left: 53px;
     }
 
@@ -415,9 +420,9 @@ main{
     }
 
     .ladoD .exag{
-        font-size: 24px;
+        font-size: 20px;
         margin-left: 15vw;
-        margin-top: 250px;
+        margin-top: 150px;
     }
 
     .ladoD .imgalg{
@@ -432,39 +437,48 @@ main{
     }
 
     .ladoD .imggeo{
-        height: 300px;
-        width: 320px;
+        height: 200px;
+        width: 180px;
     }
 
 
     .ladoE .stat{
-        margin-top: 150px;
+        margin-top: 50px;
     }
 
     .ladoD .exes{
-        font-size: 24px;
-        margin-left: 40px;
-        margin-top: 270px;
+        font-size: 20px;
+        margin-left: 35px;
+        margin-top: 50px;
+
+    }
+
+    .ladoD h3{
+        font-size: 14px;    
     }
 
     .pqtt h1{
-        font-size: 32px;
+        font-size: 20px;
         margin-left: 40px;
        }
        .txtult h3{
-        font-size: 16px;
+        font-size: 12px;
         margin-left: 40px;
 
        }
 
        .lastimg img{
-        height: 200px;
-        width: 300px;
+        height: 150px;
+        width: 200px;
         margin-left: 40px;
        }
 
        .lastdiv{
-        font-size: 24px;
+        font-size: 20px;
+       }
+
+       main{
+        width: 100vw;
        }
 
     
