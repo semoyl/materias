@@ -86,7 +86,7 @@ header nav a:hover{
 main{
     background-color: #FEC34E ;
     padding-top: 15vh;
-    width: 100%;
+    width: 100vw;
 }
 
 #start{
@@ -355,6 +355,119 @@ main{
        }
 
 
+}
+
+@media (max-width:640px){
+
+    .topics{        
+        width: 75vw;
+        justify-content: start;
+        margin-left: 70px;
+
+    }
+
+    .matt{
+        font-size: 20px;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    .topics li{
+        font-size: 12px;
+        margin-top: 65px;
+    }
+
+    .sobretit{
+        margin-top: 20vh;
+    }
+
+    .sobretit h1{
+        font-size: 36px;
+        margin-top: 100px;
+        margin-left: 32vw;
+    }
+
+    .txt1{
+        font-size: 16px;
+        width: 70vw;
+        align-items: center;
+        margin-left: 20vw;
+    }
+
+    .img1 img{
+        height: 200px;
+        width: 400px;
+        margin-top: 2vh;
+    }
+
+    .ladoE h1{
+        font-size: 24px;
+        margin-top: 150px;
+    }
+
+    .ladoE h3{
+        font-size: 14px;
+        margin-left: 53px;
+    }
+
+    .ladoD{
+        width: 50vw;
+    }
+
+    .ladoD .exag{
+        font-size: 24px;
+        margin-left: 15vw;
+        margin-top: 250px;
+    }
+
+    .ladoD .imgalg{
+        margin-top: 50px;
+        height: 250px;
+        width: 200px;
+        margin-right: 100px;
+    }
+
+    .ladoD .exge{
+        margin-left: 50px;
+    }
+
+    .ladoD .imggeo{
+        height: 300px;
+        width: 320px;
+    }
+
+
+    .ladoE .stat{
+        margin-top: 150px;
+    }
+
+    .ladoD .exes{
+        font-size: 24px;
+        margin-left: 40px;
+        margin-top: 270px;
+    }
+
+    .pqtt h1{
+        font-size: 32px;
+        margin-left: 40px;
+       }
+       .txtult h3{
+        font-size: 16px;
+        margin-left: 40px;
+
+       }
+
+       .lastimg img{
+        height: 200px;
+        width: 300px;
+        margin-left: 40px;
+       }
+
+       .lastdiv{
+        font-size: 24px;
+       }
+
+    
 }
 
 
